@@ -3,7 +3,7 @@
   Calendr
 
   Created by Albiji on 18/01/2023.
-  Modified by @ilMagnifico on 02/10/2024. 
+  Modified by @ilMagnifico on 23/12/2024. 
 */
 
 "quit" = "Esci";
@@ -18,9 +18,12 @@
 "auto_update.fetching_releases" = "Ottieni versioni";
 "auto_update.new_version" = "Nuova versione disponibile: %@";
 "auto_update.updated_to" = "Aggiornato alla versione %@";
-"auto_update.downloading" = "Scaricamento della versione %@";
+"auto_update.downloading" = "Download della versione %@";
 "auto_update.install" = "Installa";
 "auto_update.replace.message" = "Conferma la posizione dell'app così da avere l'autorizzazione a sostituirla";
+
+"attachments.open.message" = "Calendr necessita del permesso per accedere ai tuoi allegati";
+"attachments.open.authorize" = "Autorizza l’accesso agli allegati";
 
 "settings.title" = "Preferenze";
 "settings.tab.general" = "Generali";
@@ -33,13 +36,14 @@
 "settings.menu_bar.auto_launch" = "Avvia al login";
 "settings.menu_bar.show_icon" = "Mostra icona";
 "settings.menu_bar.show_date" = "Mostra data";
-"settings.menu_bar.show_icon_date" = "Mostra la data nell'icona";
 "settings.menu_bar.show_background" = "Mostra sfondo opaco";
 "settings.menu_bar.date_format_custom" = "Personalizzato";
 
 "settings.next_event" = "Prossimo evento";
 "settings.next_event.show_next_event" = "Mostra il prossimo evento";
-"settings.next_event.font_size" = "Dimensione del font";
+"settings.next_event.grab_attention" = "Cattura l'attenzione quando l'evento è vicino";
+"settings.next_event.grab_attention.flashing" = "Lampeggia";
+"settings.next_event.grab_attention.sound" = "Riproduci suono di avviso";
 "settings.next_event.detect_notch" = "Più corto se c'è il 'notch'";
 
 "settings.calendar" = "Calendario";
@@ -55,6 +59,7 @@
 "settings.events.show_overdue_reminders" = "Mostra promemoria scaduti";
 "settings.events.show_finished_events" = "Mostra eventi terminati";
 "settings.events.show_recurrence_indicator" = "Mostra indicatore di ricorrenza";
+"settings.events.force_local_time_zone" = "Mostra tutti gli eventi nel fuso orario locale";
 
 "settings.appearance.transparency" = "Trasparenza";
 "settings.appearance.accessibility" = "Accessibilità";
@@ -77,32 +82,33 @@
 "settings.keyboard.global_shortcuts.open_next_reminder" = "Aprire il prossimo promemoria";
 "settings.keyboard.global_shortcuts.open_next_reminder_options" = "Opzioni del prossimo promemoria";
 
-"formatter.date.all_day" = "Tutto il giorno";
 "formatter.date.today" = "Oggi";
 "formatter.date.relative.in" = "in %@";
 "formatter.date.relative.ago" = "%@ fa";
 "formatter.date.relative.left" = "%@ rimasto";
 
+"reminder.status.overdue" = "Scaduti";
+
 "reminder.options.button" = "Opzioni";
 "reminder.options.complete" = "Completato";
 "reminder.options.remind" = "Ricorda %@";
 
-"event_details.participant.organizer" = "Organizzatore";
-"event_details.participant.me" = "io";
+"event.details.participant.organizer" = "Organizzatore";
+"event.details.participant.me" = "io";
 
-"event_status.label" = "mio stato:";
+"event.all_day" = "Tutto il giorno";
 
-"event_status.accepted" = "Accettato";
-"event_status.maybe" = "Forse";
-"event_status.declined" = "Rifiutato";
-"event_status.pending" = "In attesa";
+"event.status.accepted" = "Accettato";
+"event.status.maybe" = "Forse";
+"event.status.declined" = "Rifiutato";
+"event.status.pending" = "In attesa";
 
-"event_action.open" = "Aprire";
-"event_action.join" = "Partecipare";
-"event_action.skip" = "Saltare";
-"event_action.accept" = "Accetta";
-"event_action.maybe" = "Forse";
-"event_action.decline" = "Rifiuta";
+"event.action.open" = "Aprire";
+"event.action.join" = "Partecipare";
+"event.action.skip" = "Saltare";
+"event.action.accept" = "Accetta";
+"event.action.maybe" = "Forse";
+"event.action.decline" = "Rifiuta";
 
 "tooltips.navigation.prev_month" = "Mese precedente";
 "tooltips.navigation.today" = "Oggi";
@@ -112,3 +118,5 @@
 "tooltips.toolbar.open_calendar" = "Apri Calendario";
 "tooltips.toolbar.open_reminders" = "Apri Promemoria";
 "tooltips.toolbar.open_menu" = "Apri Menu";
+
+"calendars.source.others" = "Altri";
